@@ -1,0 +1,9 @@
+version: 1.0.{build}
+skip_tags: true
+init:
+  - path C:\Miniconda-x64;C:\Miniconda-x64\Scripts;%PATH%
+  - conda update -q conda
+install:
+  - conda install -q conda-build
+build_script:
+  - conda build .

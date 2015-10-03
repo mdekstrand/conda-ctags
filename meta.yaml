@@ -1,0 +1,6 @@
+package:
+  name: ctags
+  version: "5.8"
+source:
+  svn_url: svn://svn.code.sf.net/p/ctags/code
+  svn_rev: ctags-5.8
